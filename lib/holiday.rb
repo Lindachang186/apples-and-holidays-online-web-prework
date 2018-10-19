@@ -71,7 +71,7 @@ def all_holidays_with_bbq(holiday_hash)
         new = []
       if item == "BBQ"
         new << holiday
-        puts new
+        return new
       end
       end
     end
