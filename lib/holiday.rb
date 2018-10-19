@@ -69,8 +69,9 @@ def all_holidays_with_bbq(holiday_hash)
     value.each do |holiday, supply|
       supply.collect do |item|
       if item == "BBQ"
-      return holiday
+      new = Array.new << holiday
       end
+      return new
       end
     end
   end
