@@ -62,7 +62,6 @@ def all_supplies_in_holidays(holiday_hash)
           item.capitalize!
           array.join(" ")
           puts "  #{item}: " + supply.join(", ")
-          binding.pry
         end
     end
   end
