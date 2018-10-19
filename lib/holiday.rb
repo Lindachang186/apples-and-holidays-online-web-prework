@@ -68,8 +68,10 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |key, value|
     value.each do |holiday, supply|
       supply.map do |item|
+        new = []
       if item == "BBQ"
-        return holiday
+        new << holiday
+        return new
       end
       end
     end
