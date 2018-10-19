@@ -62,6 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
           item.capitalize!
           item.join(" ")
           item
+        end
     end
   end
 end
