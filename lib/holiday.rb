@@ -71,7 +71,6 @@ def all_holidays_with_bbq(holiday_hash)
       if item == "BBQ"
       return "#{holiday}"
       end
-      return new
       end
     end
   end
