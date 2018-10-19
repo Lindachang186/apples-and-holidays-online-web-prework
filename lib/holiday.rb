@@ -71,6 +71,7 @@ def all_holidays_with_bbq(holiday_hash)
       if item == "BBQ"
         new =[]
       new << holiday
+      new
       end
       end
     end
